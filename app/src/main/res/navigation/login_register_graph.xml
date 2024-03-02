@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_register_graph"
+    app:startDestination="@id/introductionFragment">
+
+    <fragment
+        android:id="@+id/introductionFragment"
+        android:name="com.example.foodgasm.fragments.IntroductionFragment"
+        android:label="IntroductionFragment"
+        tools:layout="@layout/fragment_intro">
+
+        <action
+            android:id="@+id/action_introductionFragment_to_accountOptionsFragment2"
+            app:destination="@id/accountOptionsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.foodgasm.fragments.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment"
+            app:popUpTo="@id/accountOptionsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.foodgasm.fragments.SignupFragment"
+        android:label="SignupFragment"
+        tools:layout="@layout/fragment_signup">
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/accountOptionsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountOptionsFragment2"
+        android:name="com.example.foodgasm.fragments.AccountOptionsFragment"
+        android:label="AccountOptionsFragment"
+        tools:layout="@layout/fragment_account_options">
+        <action
+            android:id="@+id/action_accountOptionsFragment2_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_accountOptionsFragment2_to_signupFragment"
+            app:destination="@id/signupFragment" />
+    </fragment>
+</navigation>

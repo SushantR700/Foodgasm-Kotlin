@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Foodgasm</string>
+    <string name="foodgasm">Foodgasm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="client_id">1020521020125-7mi6j3g7c90vva3gahhonugodho8p9d3.apps.googleusercontent.com</string>
+</resources>

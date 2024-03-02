@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1020521020125",
+    "project_id": "foodgasm-e7394",
+    "storage_bucket": "foodgasm-e7394.appspot.com"
+  },
+  "client": [
+
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020521020125:android:8d9412b0d220c09b9df934",
+        "android_client_info": {
+          "package_name": "com.example.foodgasm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020521020125-7mi6j3g7c90vva3gahhonugodho8p9d3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodgasm",
+            "certificate_hash": "cf0352fb999277937df2cc625ee61bd59997efec"
+          }
+        },
+        {
+          "client_id": "1020521020125-v79bpbsi3797t1t7eo87k7qnh8f8cmhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwOzar6guqoHhDm2HX8f5-qqroNqozcfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020521020125-v79bpbsi3797t1t7eo87k7qnh8f8cmhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
